@@ -1,0 +1,8 @@
+CREATE TABLE Category
+(
+    Id   INT PRIMARY KEY AUTO_INCREMENT,
+    Name NVARCHAR(255) NOT NULL,
+);
+
+ALTER TABLE Product
+    ADD FOREIGN KEY (CategoryId) REFERENCES Category (Id)
