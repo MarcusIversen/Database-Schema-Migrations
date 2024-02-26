@@ -1,0 +1,7 @@
+CREATE TABLE ProductRating(
+    Id INT PRIMARY KEY IDENTITY(1,1),
+    Rating DOUBLE CHECK (Rating BETWEEN 1 AND 10),
+);
+
+ALTER TABLE ProductRating
+ADD FOREIGN KEY (ProductId ) REFERENCES Product (Id);
