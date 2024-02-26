@@ -1,0 +1,7 @@
+CREATE Database IF NOT EXISTS `eCommerceDB`;
+       
+CREATE TABLE Product(
+    Id INT AUTO_INCREMENT PRIMARY KEY,
+    Name NVARCHAR(255) NOT NULL,
+    Price DECIMAL(10,2) NOT NULL,
+);
