@@ -493,3 +493,4 @@ fabric.properties
 # Ignore all local history of files
 .history
 .ionide
+.idea/.idea.Database-Schema-Migrations.dir/.idea/indexLayout.xml
