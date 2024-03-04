@@ -472,6 +472,9 @@ crashlytics.properties
 crashlytics-build.properties
 fabric.properties
 
+# Unneccesary idea file
+/.idea.Database-Schema-Migrations.dir/
+
 # Editor-based Rest Client
 .idea/httpRequests
 
