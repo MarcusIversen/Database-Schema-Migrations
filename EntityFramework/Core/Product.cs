@@ -1,4 +1,4 @@
-namespace Ef.Data;
+namespace Ef.Core;
 
 public class Product
 {

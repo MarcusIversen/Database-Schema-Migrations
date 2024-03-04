@@ -1,4 +1,5 @@
 using Microsoft.EntityFrameworkCore;
+using Ef.Core;
 
 namespace Ef.Data;
 
